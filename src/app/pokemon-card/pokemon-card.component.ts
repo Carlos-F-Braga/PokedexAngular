@@ -7,6 +7,7 @@ import { Pokemon } from 'src/_model/pokemon';
   styleUrls: ['./pokemon-card.component.sass']
 })
 export class PokemonCardComponent {
+  
   @Input()
   public pokemon: Pokemon;
 
