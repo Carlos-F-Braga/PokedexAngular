@@ -7,11 +7,11 @@ import { Pokemon } from 'src/_model/pokemon';
   styleUrls: ['./pokemon-card.component.sass']
 })
 export class PokemonCardComponent {
-  
+
   @Input()
   public pokemon: Pokemon;
 
-  public leadingZero = (str:string|number, size:number = 3): string => {
+  public leadingZero = (str:string|number, size:number = 3):string => {
     let s = String(str);
 
     while (s.length < (size || 2)) {
